@@ -24,3 +24,20 @@ dist-ssr
 *.sw?
 
 .env
+
+# Environment files (secrets)
+backend/.env
+frontend/.env
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
